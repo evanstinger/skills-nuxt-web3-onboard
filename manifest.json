@@ -1,0 +1,94 @@
+{
+  "name": "nuxt-web3-onboard",
+  "version": "1.0.0",
+  "description": "Complete Web3 wallet integration for Nuxt 4 using @web3-onboard, Ethers.js v6, and Pinia",
+  "type": "skill",
+  "framework": "nuxt",
+  "frameworkVersion": "4",
+  "author": "AI Skill Repository",
+  "license": "MIT",
+  "keywords": [
+    "web3",
+    "wallet",
+    "ethereum",
+    "nuxt",
+    "vue",
+    "ethers",
+    "blockchain",
+    "dapp"
+  ],
+  "categories": [
+    "web3",
+    "blockchain",
+    "wallet",
+    "frontend"
+  ],
+  "entryPoints": {
+    "skill": "SKILL.md",
+    "readme": "README.md",
+    "install": "INSTALL.md",
+    "dependencies": "DEPENDENCIES.md",
+    "setup": "SETUP.md"
+  },
+  "files": {
+    "copy": [
+      "components/",
+      "composables/",
+      "config/",
+      "plugins/",
+      "stores/",
+      "types/",
+      "utils/"
+    ],
+    "documentation": [
+      "README.md",
+      "INSTALL.md",
+      "SKILL.md",
+      "DEPENDENCIES.md",
+      "SETUP.md",
+      "BEST_PRACTICES.md",
+      "EXAMPLES.md",
+      "TROUBLESHOOTING.md",
+      "ADVANCED.md"
+    ]
+  },
+  "requires": {
+    "nuxt": ">=4.0.0",
+    "vue": ">=3.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "dependencies": {
+    "core": [
+      "@web3-onboard/core",
+      "@web3-onboard/injected-wallets",
+      "@web3-onboard/metamask",
+      "@web3-onboard/walletconnect",
+      "ethers",
+      "@pinia/nuxt"
+    ],
+    "optional": [
+      "@web3-onboard/trezor",
+      "@web3-onboard/coinbase",
+      "@web3-onboard/ledger",
+      "@binance/w3w-blocknative-connector"
+    ]
+  },
+  "installation": {
+    "global": {
+      "path": "~/.opencodes/skills/nuxt-web3-onboard",
+      "method": "git-clone"
+    },
+    "local": {
+      "method": "file-copy",
+      "directories": [
+        "components",
+        "composables",
+        "config",
+        "plugins",
+        "stores",
+        "types",
+        "utils"
+      ]
+    }
+  }
+}
