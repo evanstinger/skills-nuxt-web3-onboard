@@ -49,7 +49,7 @@ See [INSTALL.md](./INSTALL.md) for detailed installation instructions.
 ### Global Installation (For AI Agents)
 ```bash
 # Install once, use across all projects
-git clone https://github.com/evanstinger/skills-nuxt-web3-onboard.git ~/.opencodes/skills/nuxt-web3-onboard
+git clone https://github.com/evanstinger/skills-nuxt-web3-onboard.git ~/.config/opencode/skills/nuxt-web3-onboard
 ```
 
 ### Local Installation (Per Project)
@@ -167,7 +167,7 @@ See [SKILL.md](./SKILL.md) for complete AI agent reference with implementation p
 
 MIT License
 
-Copyright (c) 2024 Evan Stigner
+Copyright (c) 2024 Evan Stinger
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
